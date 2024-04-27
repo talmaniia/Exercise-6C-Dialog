@@ -1,12 +1,15 @@
-Hello, adventurer! Can you help me with something? 
+You there, come talk to me
 -> choices
 
 == choices ==
-    *Of course! What is it? 
-    - - - Can you please retrieve a dozen eggs from the market? 
-    *Will I get paid? 
+    *OK, What is it?
+    - - - An anomaly has been detected here, and it is having strange effects. 
+    -> endgame
+    *Who are you?
     - - - Yes, I'll pay for your services. Can I tell you about the quest now? 
     -> choices
 
-- Come right back when you're done! I need the eggs for dinner tonight. 
+== endgame ==
+    *What do I need to do?
+    - - - You must find the reset button. It is somewhere in this house. Goodluck. 
     -> END
